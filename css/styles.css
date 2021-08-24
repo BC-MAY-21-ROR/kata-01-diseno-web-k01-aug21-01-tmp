@@ -1,0 +1,14 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@media(max-width: 375px){
+    .top{
+        background-image: url('../images/bg-hero-mobile.svg');
+        background: hsl(193, 100%, 96%);
+    }
+    .bottom{
+        background: hsl(192, 100%, 9%);
+    }
+}
