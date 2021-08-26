@@ -7,9 +7,212 @@ body,p,ul,li,a
 body
     font-family: 'Open Sans', sans-serif
 
-a
-  &.getStarted
-    color: #ff52bf
+#container
+    max-width 1440px
+
+.top 
+    max-width: 100%
+    background: #EAFAFF
+    background-image: url('../images/bg-hero-desktop.svg')
+    
+.top
+    header
+        padding: 40px
+        display: flex
+        justify-content: space-between
+
+.top
+    header
+        .tryItFree 
+                background:#f7f2f8
+                color:#00252e
+                font-family: 'Poppins', sans-serif
+                font-weight: bold
+                padding: 10px 60px
+                border-radius: 60px 60px 60px 60px / 80px 80px 80px 80px;
+                box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.20)
+            
+.top
+    .buildAndGetStarter
+        width: 100%
+        padding-top:30px
+        display:flex
+        justify-content: space-between
+        align-items: center
+.top
+    .buildAndGetStarter
+        .buildTheCommunity
+            width: 40%
+            padding: 50px 0px 50px 50px
+
+.top
+    .buildAndGetStarter
+        .buildTheCommunity
+                h1
+                    margin: 0 auto
+                    color:#00242D
+                    text-align: left
+                    font-family: 'Open Sans', sans-serif
+                    line-height: 1.5
+                    font-size: 3 em
+                    padding-bottom: 30px
+.top
+    .buildAndGetStarter
+        .buildTheCommunity
+                h6
+                    margin: 0 auto
+                    text-align: left
+                    font-size: 1.25 em
+                    line-height: 1.5
+                    font-weight: normal
+                    padding-bottom: 30px
+.top
+    .buildAndGetStarter
+        .previewImg 
+            width: 55%
+            padding:50px 50px 50px 50px
+            display: flex
+            justify-content: center
+.top
+    .buildAndGetStarter   
+        .previewImg 
+            img
+                width: 95%
+
+.getStartedContainer
+    .getStarted
+        color: white;
+        font-family: 'Poppins', sans-serif
+        font-weight: bold
+        font-size:smaller
+        align-items: center
+        background:#FF51BF
+        border-radius: 40px
+        display: flex
+        flex-direction: column
+        height: 40px
+        justify-content: center
+        text-align: center
+        width: 40%;  
+        cursor: pointer
+        box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+        -webkit-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+        -moz-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+.center
+    display:flex
+    flex-direction: column
+    align-content: center
+    justify-content: center
+    align-items:center
+.center
+    article:nth-child(odd)
+        padding-top:30px
+        display:flex
+        justify-content: space-between
+        flex-direction: row-reverse
+        align-items: center
+        width: 75%
+        padding:10px
+        margin-top:20px
+        box-shadow: 0px 0px 16px -2px rgba(56, 55, 55, 0.12)
+        border-radius: 15pxr
+
+.center
+    article:nth-child(even)
+        width: 100%
+        padding-top:30px
+        display:flex
+        justify-content: space-between
+        align-items: center
+        
+        width: 75%
+        padding:10px
+        margin-top:20px
+        box-shadow: 0px 0px 16px -2px rgba(56, 55, 55, 0.12)
+        border-radius: 15pxr
+
+.articleImg
+    img
+        display: block
+        margin: 0 auto
+        width: 70%
+        padding:20px 40px 20px 40px
+
+
+.articleText 
+    h3
+        text-align: left
+        margin: 0 auto
+        font-size: 2em
+        padding:0px 45px 0px 45px
+        line-height: 1.5
+        font-weight: bold  
+       
+.articleText 
+    h6
+        color:#7F8D98
+        margin: 0 auto
+        font-size: 1.2em
+        text-align: left
+        font-weight: normal
+        line-height: 1.5
+        padding: 10px 45px 0px 45px
+
+
+.bottom
+    background-color: #00242D
+    color: #FFFFFF
+    position: absolute
+    margin-top: 200px
+    width: 100%
+
+.bottom 
+    article
+        font-size: 2.5em
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin: 0 auto
+        width: 60%
+        padding: 3% 8%
+        box-shadow: 0px 0px 13px -3px rgba(56, 55, 55, 0.10)
+        border-radius: 15px
+        background-color: #ffffff
+        color: black
+        position: relative
+        top: -250px
+
+.buildcommunity
+    text-align: center
+
+.getStartedContainer
+    .getStarted
+        color: white;
+        padding: 30px;
+        font-family: 'Poppins', sans-serif
+        font-size: 1.875
+        font-weight: bold
+        font-size:smaller
+        align-items: center
+        background:#FF51BF
+        border-radius: 60px 60px 60px 60px / 80px 80px 80px 80px;
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin: 0 auto
+        text-align: center
+        width: 50%;
+        cursor: pointer
+        box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+        -webkit-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+        -moz-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+        
+a.getStarted:active
+    background:#FF51BF
+    -webkit-tap-highlight-color: transparent
+    outline: none
+
+
 
 
 
@@ -23,6 +226,7 @@ a
 
     .top 
         header
+            
             padding:25px
             display: flex
             justify-content: space-between
@@ -35,7 +239,7 @@ a
 
     .top
         header 
-            a
+            .tryItFree 
                 background:#f7f2f8
                 color:#00242D
                 font-family: 'Poppins', sans-serif
@@ -43,68 +247,96 @@ a
                 padding: 10px 30px
                 border-radius: 20px
                 box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.20)
+    .top
+        .buildAndGetStarter
+            
+            display:flex
+            flex-direction: column
+            align-content: center
+            justify-content: center
+            width: 100%
+            padding: 0px
+            
     
+            
     a.tryItFree:active
         color:#cecece
         -webkit-tap-highlight-color: transparent
         outline: none
     
     .top 
-        .buildTheCommunity
-            padding:40px
+        .buildAndGetStarter
+            .buildTheCommunity
+                width: 85%
+                padding:20px
+                
+                
     
     .top 
-        .buildTheCommunity 
-            h1
-                color:#00242D
-                text-align: center
-                font-family: 'Open Sans', sans-serif
-                line-height: 1.5
-                font-size: 25px
+        .buildAndGetStarter
+            .buildTheCommunity 
+                h1
+                    color:#00242D
+                    font-family: 'Open Sans', sans-serif
+                    text-align: center
+                    line-height: 1.5
+                    font-size: 1.875em
     
     .top 
-        .buildTheCommunity 
-            h6
-                text-align: center
-                font-size: 18px
-                line-height: 25px
-                font-weight: normal
+        .buildAndGetStarter
+            .buildTheCommunity 
+                h6
+                    text-align: center
+                    font-size: 1.1em
+                    line-height: 25px
+                    font-weight: normal
     
-    a.getStarted
-        color: white;
-        font-family: 'Poppins', sans-serif
-        font-weight: bold
-        font-size:smaller
-        align-items: center
-        background:#FF51BF
-        border-radius: 40px
-        display: flex
-        flex-direction: column
-        height: 40px
-        justify-content: center
-        margin: 0 auto
-        text-align: center
-        width: 80%;  
-        cursor: pointer
-        box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
-        -webkit-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
-        -moz-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+    .getStartedContainer
+        .getStarted
+            color: white;
+            font-family: 'Poppins', sans-serif
+            font-weight: bold
+            font-size:smaller
+            align-items: center
+            background:#FF51BF
+            border-radius: 40px
+            display: flex
+            flex-direction: column
+            height: 40px
+            justify-content: center
+            margin: 0 auto
+            text-align: center
+            width: 80%;  
+            cursor: pointer
+            box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+            -webkit-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+            -moz-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
         
     a.getStarted:active
         background:#FF51BF
         -webkit-tap-highlight-color: transparent
         outline: none
 
-    .previewImg 
-        img
-            display: block
-            margin: 0 auto
-            width: 80%
-            padding-top: 50px
-            padding-bottom: 25px
-    
-    .center  
-        article
+    .top
+        .buildAndGetStarter
+            .previewImg 
+                width:100%
+                padding:0
+
+    .top
+        .buildAndGetStarter
+            .previewImg 
+                    img
+                        display: block
+                        margin: 0 auto
+                        width: 100%
+                        padding-top: 50px
+                        padding-bottom: 25px
+
+
+
+    .center
+        article:nth-child(odd)
             display: flex
             flex-direction: column
             justify-content: center
@@ -114,6 +346,19 @@ a
             margin-top:20px
             box-shadow: 0px 0px 16px -2px rgba(56, 55, 55, 0.12)
             border-radius: 15px
+
+    .center
+        article:nth-child(even)
+            display: flex
+            flex-direction: column
+            justify-content: center
+            margin: 0 auto
+            width: 75%
+            padding:10px
+            margin-top:20px
+            box-shadow: 0px 0px 16px -2px rgba(56, 55, 55, 0.12)
+            border-radius: 15pxr
+    
 
     .articleImg 
         img
@@ -131,8 +376,7 @@ a
             padding-bottom: 5px
             line-height: 1
             font-weight: bold  
-        
-        
+       
     
     .articleText 
         h6
@@ -144,7 +388,6 @@ a
             line-height: 20px
             padding: 20px
         
-    
 
     .bottom 
         article
@@ -165,9 +408,7 @@ a
     
     .buildcommunity
         text-align: center
-        
-    
-    
+         
     .bottom
         background-color: #00242D
         color: #FFFFFF
