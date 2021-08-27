@@ -1,3 +1,6 @@
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
 
 body,p,ul,li,a
     padding 0
@@ -54,15 +57,16 @@ body
                     text-align: left
                     font-family: 'Open Sans', sans-serif
                     line-height: 1.5
-                    font-size: 3 em
+                    font-size: 3em
                     padding-bottom: 30px
 .top
     .buildAndGetStarter
         .buildTheCommunity
                 h6
+                    font-family: 'Open Sans', sans-serif
                     margin: 0 auto
                     text-align: left
-                    font-size: 1.25 em
+                    font-size: 1.563em
                     line-height: 1.5
                     font-weight: normal
                     padding-bottom: 30px
@@ -84,7 +88,8 @@ body
         color: white;
         font-family: 'Poppins', sans-serif
         font-weight: bold
-        font-size:smaller
+        font-size:25px
+        padding: 20px 80px
         align-items: center
         background:#FF51BF
         border-radius: 40px
@@ -104,6 +109,8 @@ body
     align-content: center
     justify-content: center
     align-items:center
+    padding-bottom: 150px
+
 .center
     article:nth-child(odd)
         padding-top:30px
@@ -115,7 +122,7 @@ body
         padding:10px
         margin-top:20px
         box-shadow: 0px 0px 16px -2px rgba(56, 55, 55, 0.12)
-        border-radius: 15pxr
+        border-radius: 15px
 
 .center
     article:nth-child(even)
@@ -124,7 +131,6 @@ body
         display:flex
         justify-content: space-between
         align-items: center
-        
         width: 75%
         padding:10px
         margin-top:20px
@@ -135,7 +141,7 @@ body
     img
         display: block
         margin: 0 auto
-        width: 70%
+        max-width: 70%
         padding:20px 40px 20px 40px
 
 
@@ -168,31 +174,29 @@ body
 
 .bottom 
     article
-        font-size: 2.5em
         display: flex
         flex-direction: column
         justify-content: center
+        font-size: 1.875em
         margin: 0 auto
-        width: 60%
-        padding: 3% 8%
+        max-width: 60%
+        padding:30px 50px
         box-shadow: 0px 0px 13px -3px rgba(56, 55, 55, 0.10)
         border-radius: 15px
         background-color: #ffffff
         color: black
         position: relative
-        top: -250px
+        top: -200px
 
 .buildcommunity
     text-align: center
 
-.getStartedContainer
-    .getStarted
+.startedBottom
+    .startedBottomLink
         color: white;
-        padding: 30px;
         font-family: 'Poppins', sans-serif
-        font-size: 1.875
-        font-weight: bold
-        font-size:smaller
+        font-size: 25px
+        padding: 4% 
         align-items: center
         background:#FF51BF
         border-radius: 60px 60px 60px 60px / 80px 80px 80px 80px;
@@ -202,17 +206,127 @@ body
         margin: 0 auto
         text-align: center
         width: 50%;
-        cursor: pointer
         box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
         -webkit-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
         -moz-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
-        
-a.getStarted:active
-    background:#FF51BF
-    -webkit-tap-highlight-color: transparent
-    outline: none
+
+.bottom
+    .bottomInfo
+        width: 100%
+        margin-top:-190px
+        padding: 0px 0px 0px 0px
+        display:flex
+        justify-content: space-between
+        align-items: center
+
+.contactInfo
+        width: 27%
+        padding:5.556% 1.556% 5.556% 5.556%
+
+.contactInfoHuddleIcon
+    padding:20px
+
+.contactInfoHuddleIcon 
+    .logowhite 
+        g 
+            path
+                fill:white
+
+.contactInfoDirection
+        display: flex
+        justify-content: flex-start
+        margin-top: 25px
+        width: 100%
+
+.contactInfoDirectionImg
+    padding: 8px 25px 0px 20px
+
+.contactInfoDirectionInfo
+    p   
+        width: 100%
+        font-size:1em
+        line-height: 1.8
+        padding-right: 25px
+
+.contactInfoTelephone
+        display: flex
+        justify-content: flex-start
+        margin-top: 25px
+    
+.contactInfoTelephoneImg
+    padding: 5px 16px 0px 20px
+
+.contactInfoTelephoneInfo
+    font-size:1em;
+    line-height: 1.8;
+    
+.contactInfoEmail
+    display: flex
+    justify-content: flex-start
+    margin-top: 25px
+    margin-bottom: 30px
+
+.contactInfoEmailImg
+    padding: 2px 16px 0px 20px
+    
+.contactInfoEmaiInfo
+    font-size: 17px
+    line-height: 1.8
+
+.aboutUs
+    width:33%
+    display:flex
+    padding:5px
+    
+.aboutUs 
+    ul
+        list-style-type: none
+        margin:20px
+        padding: 0px 0px 0px 18px
+    
+.aboutUs 
+    ul 
+        li
+            padding-top: 25px
+            font-size:25px
 
 
+.socialAndIcon
+    width:27%
+    padding:0px 2% 0px 2% 
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    
+.socialNet
+    width:100%
+
+.social 
+    width: 100%
+    padding-top:38%
+    display:flex
+
+.social 
+        li 
+            a 
+                svg
+                    height: 40px
+                    width: 40px
+                    padding: 10px
+.icon
+    g 
+        path
+            fill:#FFFFFF
+
+.iconCopyrightText
+    width: 100%
+    padding: 44% 0px 10% 0px
+    display:flex
+
+.iconCopyrightText
+    p
+        font-size:1em
+   
 
 
 
@@ -296,7 +410,8 @@ a.getStarted:active
             color: white;
             font-family: 'Poppins', sans-serif
             font-weight: bold
-            font-size:smaller
+            font-size: 18px
+            padding: 0
             align-items: center
             background:#FF51BF
             border-radius: 40px
@@ -387,13 +502,20 @@ a.getStarted:active
             font-weight: normal
             line-height: 20px
             padding: 20px
-        
+
+    .bottom
+        background-color: #00242D
+        color: #FFFFFF
+        position: absolute
+        margin-top: 200px
+        width: 100%
 
     .bottom 
         article
             display: flex
             flex-direction: column
             justify-content: center
+            font-size: 1.125em
             margin: 0 auto
             width: 80%
             padding:5%
@@ -404,20 +526,48 @@ a.getStarted:active
             background-color: #ffffff
             color: black
             position: relative
-            top: -90px
-    
+            top: -120px        
+
     .buildcommunity
         text-align: center
-         
-    .bottom
-        background-color: #00242D
-        color: #FFFFFF
-        position: absolute
-        margin-top: 200px
-        width: 100%
+
+    .startedBottom 
+        .startedBottomLink
+            color: white;
+            font-family: 'Poppins', sans-serif
+            font-weight: bold
+            font-size: 0.938em
+            padding: 5px
+            align-items: center
+            background:#FF51BF
+            border-radius: 40px
+            display: flex
+            flex-direction: column
+            height: 45px
+            justify-content: center
+            margin: 0 auto
+            text-align: center
+            width: 80%;  
+            cursor: pointer
+            box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+            -webkit-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
+            -moz-box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1)
     
+
+    .bottom
+        .bottomInfo
+            width: 100%
+            padding: 0px 
+            margin:0 auto
+            display:flex
+            flex-direction: column
+            align-content: center
+            justify-content: center
+            align-items:flex-start
+
     .contactInfo
         width: 90%
+        padding:0px
 
     .contactInfoHuddleIcon
         padding:20px
@@ -445,8 +595,6 @@ a.getStarted:active
             font-size:16px
             line-height: 1.8
             padding-right: 25px
-        
-
     
     .contactInfoTelephone
         display: flex
@@ -475,11 +623,8 @@ a.getStarted:active
         line-height: 1.8
 
     .aboutUs
-        display: flex
-        justify-content: flex-start
-        margin:0px
-        padding:0px
-        padding-bottom: 40px
+        display: block   
+        padding: 5px
     
     .aboutUs 
         ul
@@ -490,24 +635,25 @@ a.getStarted:active
     .aboutUs 
         ul 
             li
+                display: block
                 padding-top: 25px
-                font-size:17px
+                font-size:1.125em
     
 
-    .iconCopyright
-        display: flex
-        justify-content: center
     
-    .iconCopyrightText
-        font-size: 10px
+    .socialAndIcon
+        width:100%
+        padding:8% 0px 0px 0px
         display: flex
+        flex-direction: column
         justify-content:center
-    
 
     .socialNet
         width:100%
 
     .social 
+        width:100%
+        padding:0px
         display:flex
         justify-content: center
 
@@ -521,20 +667,17 @@ a.getStarted:active
                     
     .social 
         li 
-            
             display:inline
-
 
     .icon
         g 
             path
                 fill:#FFFFFF
  
-    
-
-
     .iconCopyrightText
-        padding-bottom: 20px
-    
-
-    
+        width:100%
+        padding: 20px 0px 40px 0px
+        display:flex
+        justify-content: center
+        text-align:center
+        
